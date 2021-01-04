@@ -17,6 +17,7 @@ nmap <leader>x :x<cr>
 
 " Tab
 nnoremap <a-t> :tabnew<cr>
+nnoremap <a-q> :tabclose<cr>
 nnoremap <a-h> :tabprevious<cr>
 nnoremap <a-l> :tabnext<cr>
 nnoremap <a-1> :tabn 1<cr>
