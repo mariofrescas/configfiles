@@ -1,2 +1,2 @@
-nnoremap <c-s-f> :CtrlSF 
-nnoremap <c-s-o> :CtrlSFOpen<cr>
+nnoremap <c-f> :CtrlSF 
+nnoremap <c-f>o :CtrlSFOpen<cr>
