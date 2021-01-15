@@ -1,5 +1,5 @@
-" Set leader key
-let g:mapleader = "f"
+let g:mapleader = "f"                                     " Set leader key
+let g:vim_json_syntax_conceal = 0                         " Disable quote concealing in JSON files
 
 syntax enable                                             " Enables syntax highlighing
 filetype plugin on                                        " Enables filetype detection
