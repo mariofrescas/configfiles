@@ -3,8 +3,8 @@ let g:vim_json_syntax_conceal = 0                         " Disable quote concea
 
 syntax enable                                             " Enables syntax highlighing
 filetype plugin on                                        " Enables filetype detection
-set t_Co=256                                              " Support 256 colors
 colorscheme gruvbox                                       " Selects theme
+set t_Co=256                                              " Support 256 colors
 set hidden                                                " Required to keep multiple buffers open multiple buffers
 set nowrap                                                " Display long lines as just one line
 set encoding=utf-8                                        " The encoding displayed

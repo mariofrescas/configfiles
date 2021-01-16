@@ -17,7 +17,6 @@ ln -s $CURRENT_DIR/plug-config/coc.vim $CONFIG_DIR/plug-config/coc.vim
 ln -s $CURRENT_DIR/plug-config/ctrlsf.vim $CONFIG_DIR/plug-config/ctrlsf.vim
 ln -s $CURRENT_DIR/plug-config/ctrlspace.vim $CONFIG_DIR/plug-config/ctrlspace.vim
 ln -s $CURRENT_DIR/plug-config/easymotion.vim $CONFIG_DIR/plug-config/easymotion.vim
-ln -s $CURRENT_DIR/plug-config/gruvbox.vim $CONFIG_DIR/plug-config/gruvbox.vim
 ln -s $CURRENT_DIR/plug-config/lightline.vim $CONFIG_DIR/plug-config/lightline.vim
 ln -s $CURRENT_DIR/plug-config/ranger.vim $CONFIG_DIR/plug-config/ranger.vim
 ln -s $CURRENT_DIR/plug-config/indentline.vim $CONFIG_DIR/plug-config/indentline.vim
