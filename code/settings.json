@@ -1,0 +1,63 @@
+{
+  // "window.zoomLevel": -1,
+  "explorer.openEditors.visible": 0,
+
+  "workbench.tree.indent": 20,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#bc91f8",
+    "editorLineNumber.activeForeground": "#e3ceff"
+  },
+
+  "editor.tabSize": 2,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.quickSuggestions": false,
+  "editor.suggestOnTriggerCharacters": false,
+
+  "gitlens.menus": false,
+  "gitlens.codeLens.enabled": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "todo-tree.tree.showScanModeButton": false,
+
+  "vim.leader": "f",
+  "vim.foldfix": true,
+  "vim.easymotion": true,
+  "vim.easymotionKeys": "hklyuiopnm,qwertzxcvbasdgjf",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "m"],
+      "commands": [
+        "bookmarks.toggle"
+      ]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": [
+        "bookmarks.list"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ]
+}
