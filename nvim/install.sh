@@ -3,6 +3,9 @@
 CURRENT_DIR=$(pwd)
 CONFIG_DIR=$HOME/.config/nvim
 
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
 ln -s $CURRENT_DIR/init.vim $CONFIG_DIR/init.vim
 ln -s $CURRENT_DIR/coc-settings.json $CONFIG_DIR/coc-settings.json
 
