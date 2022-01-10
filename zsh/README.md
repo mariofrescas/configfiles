@@ -1,4 +1,4 @@
-Install
+1. Configure
 ```
 ./install.sh
 ```

@@ -1,14 +1,14 @@
-Install
+1. Configure
 ```
 sudo ./install.sh
 ```
 
-Intall zip
+2. Intall zip
 ```
 sudo pacman -S zip
 ```
 
-Intall unzip
+2. Intall unzip
 ```
 sudo pacman -S unzip
 ```

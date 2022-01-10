@@ -1,3 +1,8 @@
+1. Configure
+```
+./install.sh
+```
+
 Usage (default: l2)
 ```
 git tree l1 | less -r

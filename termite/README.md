@@ -1,9 +1,9 @@
-Install
+1. Install
 ```
 sudo ./install.sh
 ```
 
-Edit the following line in install.sh in order to select a theme
+2. Edit the following line in install.sh in order to select a theme
 
 Gruvbox
 ```

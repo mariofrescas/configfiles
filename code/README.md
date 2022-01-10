@@ -1,4 +1,9 @@
-Install
+1. Install vscode
 ```
-read ./install.sh and install manually
+sudo pacman -S vscode
+```
+
+2. Read and configure manually
+```
+./install.sh
 ```
