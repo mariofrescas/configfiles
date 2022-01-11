@@ -4,7 +4,8 @@ let g:coc_global_extensions = [
  \ 'coc-json',
  \ 'coc-tsserver',
  \ 'coc-eslint',
- \ 'coc-prettier'
+ \ 'coc-prettier',
+ \ 'coc-java'
  \ ]
 
 " Uses prettier as coc-formatter
