@@ -11,3 +11,4 @@ source $HOME/.config/nvim/plug-config/lightline.vim
 source $HOME/.config/nvim/plug-config/ranger.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
 source $HOME/.config/nvim/plug-config/gitgutter.vim
+source $HOME/.config/nvim/plug-config/treesitter.vim

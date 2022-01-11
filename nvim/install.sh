@@ -24,3 +24,4 @@ ln -s $CURRENT_DIR/plug-config/lightline.vim $CONFIG_DIR/plug-config/lightline.v
 ln -s $CURRENT_DIR/plug-config/ranger.vim $CONFIG_DIR/plug-config/ranger.vim
 ln -s $CURRENT_DIR/plug-config/indentline.vim $CONFIG_DIR/plug-config/indentline.vim
 ln -s $CURRENT_DIR/plug-config/gitgutter.vim $CONFIG_DIR/plug-config/gitgutter.vim
+ln -s $CURRENT_DIR/plug-config/treesitter.vim $CONFIG_DIR/plug-config/treesitter.vim

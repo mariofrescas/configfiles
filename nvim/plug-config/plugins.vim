@@ -16,6 +16,7 @@ call plug#begin(stdpath('config'))
   Plug 'yggdroot/indentline'
   Plug 'airblade/vim-gitgutter'
   Plug 'ntpeters/vim-better-whitespace'
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
   " Editor
   Plug 'alvan/vim-closetag'

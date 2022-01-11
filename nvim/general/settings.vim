@@ -5,8 +5,9 @@ syntax enable                                             " Enables syntax highl
 filetype plugin on                                        " Enables filetype detection
 colorscheme gruvbox                                       " Selects theme
 set t_Co=256                                              " Support 256 colors
-set foldmethod=syntax                                     " Folds file based on syntax
+set foldmethod=expr                                       " Uses treesitter to folding
 set foldlevelstart=99                                     " All folds open
+set foldexpr=nvim_treesitter#foldexpr()                   " Uses treesitter to folding
 set hidden                                                " Required to keep multiple buffers open multiple buffers
 set nowrap                                                " Display long lines as just one line
 set encoding=utf-8                                        " The encoding displayed
