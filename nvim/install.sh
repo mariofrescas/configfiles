@@ -25,3 +25,7 @@ ln -s $CURRENT_DIR/plug-config/ranger.vim $CONFIG_DIR/plug-config/ranger.vim
 ln -s $CURRENT_DIR/plug-config/indentline.vim $CONFIG_DIR/plug-config/indentline.vim
 ln -s $CURRENT_DIR/plug-config/gitgutter.vim $CONFIG_DIR/plug-config/gitgutter.vim
 ln -s $CURRENT_DIR/plug-config/treesitter.vim $CONFIG_DIR/plug-config/treesitter.vim
+
+# Java Development
+sudo mkdir /usr/local/share/lombok
+sudo wget https://projectlombok.org/downloads/lombok.jar -O /usr/local/share/lombok/lombok.jar
