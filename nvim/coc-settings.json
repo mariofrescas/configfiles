@@ -4,5 +4,6 @@
   "diagnostic.infoSign": "•",
   "prettier.eslintIntegration": true,
 
+  "npm.binPath": "~/.nvm/versions/node/v16.14.2/bin/npm",
   "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar"
 }
