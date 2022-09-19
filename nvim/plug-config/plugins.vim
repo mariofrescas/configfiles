@@ -26,7 +26,7 @@ call plug#begin(stdpath('config'))
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
   " Navigation
-  Plug 'easymotion/vim-easymotion'
+  Plug 'justinmk/vim-sneak'
   Plug 'christoomey/vim-tmux-navigator'
 
   " Themes

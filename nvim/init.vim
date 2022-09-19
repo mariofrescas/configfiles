@@ -6,7 +6,7 @@ source $HOME/.config/nvim/plug-config/closetag.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/ctrlsf.vim
 source $HOME/.config/nvim/plug-config/ctrlspace.vim
-source $HOME/.config/nvim/plug-config/easymotion.vim
+source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/lightline.vim
 source $HOME/.config/nvim/plug-config/ranger.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
