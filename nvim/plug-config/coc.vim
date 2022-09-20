@@ -15,7 +15,7 @@ let g:coc_node_path = '~/.nvm/versions/node/v16.14.2/bin/node'
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Formats the document
-nmap <leader><s-f> :Prettier<cr>
+nmap <leader>kp :Prettier<cr>
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
@@ -54,9 +54,9 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
-nmap <leader>m :CocDiagnostics<cr>
+nmap <silent> <leader>kk <Plug>(coc-diagnostic-prev)
+nmap <silent> <leader>kj <Plug>(coc-diagnostic-next)
+nmap <silent> <leader>kl :CocDiagnostics<cr>
 
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
@@ -81,11 +81,11 @@ endfunction
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Symbol renaming.
-nmap <leader>rn <Plug>(coc-rename)
+nmap <leader>krn <Plug>(coc-rename)
 
 " Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+xmap <leader>kf  <Plug>(coc-format-selected)
+nmap <leader>kf  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!
@@ -97,13 +97,13 @@ augroup end
 
 " Applying codeAction to the selected region.
 " Example: `<leader>aap` for current paragraph
-xmap <leader>a  <Plug>(coc-codeaction-selected)
-nmap <leader>a  <Plug>(coc-codeaction-selected)
+xmap <leader>ka  <Plug>(coc-codeaction-selected)
+nmap <leader>ka  <Plug>(coc-codeaction-selected)
 
 " Remap keys for applying codeAction to the current buffer.
-nmap <leader>ac  <Plug>(coc-codeaction)
+nmap <leader>kac  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
-nmap <leader>qf  <Plug>(coc-fix-current)
+nmap <leader>kqf  <Plug>(coc-fix-current)
 
 " Map function and class text objects
 " NOTE: Requires 'textDocument.documentSymbol' support from the language server.

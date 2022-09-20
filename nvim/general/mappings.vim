@@ -9,12 +9,6 @@ vnoremap < <gv
 nnoremap <leader>> 10<c-w>>
 nnoremap <leader>< 10<c-w><
 
-" File
-nmap <leader>w :w<cr>
-nmap <leader>a :wa<cr>
-nmap <leader>q :q<cr>
-nmap <leader>x :x<cr>
-
 " Tab
 nnoremap <a-t> :tabnew<cr>
 nnoremap <a-q> :tabclose<cr>
