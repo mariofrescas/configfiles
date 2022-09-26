@@ -23,9 +23,3 @@ nnoremap <a-6> :tabn 6<cr>
 nnoremap <a-7> :tabn 7<cr>
 nnoremap <a-8> :tabn 8<cr>
 nnoremap <a-9> :tabn 9<cr>
-
-" Delete without yank
-nnoremap d "_d
-vnoremap d "_d
-nnoremap D "_D
-vnoremap D "_D
