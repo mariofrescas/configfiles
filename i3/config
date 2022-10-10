@@ -11,6 +11,11 @@ set $mod Mod4
 default_border pixel 4
 default_floating_border normal
 
+#############################################
+### Title patch (try to remove):          ###
+#############################################
+for_window [class="^.*"] border pixel 4
+
 # Hide borders
 hide_edge_borders none
 
