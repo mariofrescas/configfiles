@@ -2,6 +2,8 @@
 inoremap jk <esc>
 
 " Hold selection whe tabbing
+
+" Hold selection when tabbing
 vnoremap > >gv
 vnoremap < <gv
 
