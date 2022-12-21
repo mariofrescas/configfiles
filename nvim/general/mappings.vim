@@ -1,7 +1,9 @@
 " Exit edition
 inoremap jk <esc>
 
-" Hold selection whe tabbing
+" <leader> = f, ff = forward command, FF = backward command
+noremap <leader>f f
+noremap FF F
 
 " Hold selection when tabbing
 vnoremap > >gv
