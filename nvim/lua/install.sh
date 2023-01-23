@@ -31,9 +31,10 @@ ln -s $CURRENT_DIR/$PLUGINS_DIR/lualine.lua $CONFIG_DIR/$PLUGINS_DIR/lualine.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/packer.lua $CONFIG_DIR/$PLUGINS_DIR/packer.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/ranger.lua $CONFIG_DIR/$PLUGINS_DIR/ranger.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/sneak.lua $CONFIG_DIR/$PLUGINS_DIR/sneak.lua
+ln -s $CURRENT_DIR/$PLUGINS_DIR/nullls.lua $CONFIG_DIR/$PLUGINS_DIR/nullls.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/telescope.lua $CONFIG_DIR/$PLUGINS_DIR/telescope.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/treesitter.lua $CONFIG_DIR/$PLUGINS_DIR/treesitter.lua
 
 # Java Development
-#sudo mkdir /usr/local/share/lombok
-#sudo wget https://projectlombok.org/downloads/lombok.jar -O /usr/local/share/lombok/lombok.jar
+sudo mkdir /usr/local/share/lombok
+sudo wget https://projectlombok.org/downloads/lombok.jar -O /usr/local/share/lombok/lombok.jar

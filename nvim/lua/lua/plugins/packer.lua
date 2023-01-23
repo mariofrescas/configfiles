@@ -53,6 +53,9 @@ require('packer').startup(function(use)
   -- Git decorations, navigation, preview
   use 'lewis6991/gitsigns.nvim'
 
+  -- Linting and formatting
+  use 'jose-elias-alvarez/null-ls.nvim'
+
   -- Themes
   use 'ellisonleao/gruvbox.nvim'
 
