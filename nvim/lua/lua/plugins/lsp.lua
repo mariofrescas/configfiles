@@ -53,7 +53,7 @@ local servers = {
   angularls = {},
   jdtls = {},
 
-  sumneko_lua = {
+  lua_ls = {
     Lua = {
       workspace = { checkThirdParty = false },
       telemetry = { enable = false }
