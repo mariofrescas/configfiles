@@ -22,6 +22,7 @@ ln -s $CURRENT_DIR/$PLUGINS_DIR/autopairs.lua $CONFIG_DIR/$PLUGINS_DIR/autopairs
 ln -s $CURRENT_DIR/$PLUGINS_DIR/bufferline.lua $CONFIG_DIR/$PLUGINS_DIR/bufferline.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/cmp.lua $CONFIG_DIR/$PLUGINS_DIR/cmp.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/comment.lua $CONFIG_DIR/$PLUGINS_DIR/comment.lua
+ln -s $CURRENT_DIR/$PLUGINS_DIR/ctrlsf.lua $CONFIG_DIR/$PLUGINS_DIR/ctrlsf.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/ctrlspace.lua $CONFIG_DIR/$PLUGINS_DIR/ctrlspace.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/diagnostics.lua $CONFIG_DIR/$PLUGINS_DIR/diagnostics.lua
 ln -s $CURRENT_DIR/$PLUGINS_DIR/gitsigns.lua $CONFIG_DIR/$PLUGINS_DIR/gitsigns.lua

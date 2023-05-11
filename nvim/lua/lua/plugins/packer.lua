@@ -11,6 +11,9 @@ require('packer').startup(function(use)
   -- Package manager
   use 'wbthomason/packer.nvim'
 
+  -- Search in project
+  use 'dyng/ctrlsf.vim'
+
   -- Add indentation guides even on blank lines
   use 'lukas-reineke/indent-blankline.nvim'
 
